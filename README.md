@@ -1,7 +1,7 @@
 # generator-wp-block
 A WordPress Block Generator for Yeoman
 
-##Installation
+## Installation
 
 First, install Yeoman (I assume you have node.js pre-installed.)
 `npm i -g yo`
@@ -13,7 +13,7 @@ Clone generator-wp-block and install dependencies
 Run the generator
 `yo wp-block`
 
-##Usage
+## Usage
 Enter the block details
 
 1. Name
@@ -29,6 +29,6 @@ After this you'll need to install webpack & dependencies
 Register/enqueue the files and that's all folks!
 
 
-##references
+## References
 https://github.com/guidesmiths/generator-react-component
 https://github.com/ahmadawais/Gutenberg-Boilerplate
