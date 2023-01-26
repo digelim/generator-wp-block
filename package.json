@@ -1,0 +1,30 @@
+{
+  "name": "generator-wp-block",
+  "version": "0.1.0",
+  "description": "A generator for a wp block",
+  "author": {
+    "name": "Diogo Angelim",
+    "url": "https://github.com/digelim"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "react",
+    "component",
+    "scaffold",
+    "yeoman-generator",
+    "wordpress",
+    "block"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.4"
+  },
+  "scripts": {
+    "publish-patch": "node ./bin/publish patch && npm publish",
+    "publish-minor": "node ./bin/publish minor && npm publish",
+    "publish-major": "node ./bin/publish major && npm publish"
+  },
+  "license": "ISC"
+}
