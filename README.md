@@ -13,6 +13,10 @@ Clone generator-wp-block and install dependencies
 
 `cd generator-wp-block-master && npm install`
 
+Install the generator
+
+`Yo`
+
 Run the generator
 
 `yo wp-block`
